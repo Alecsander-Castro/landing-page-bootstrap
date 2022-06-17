@@ -1,0 +1,28 @@
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 1.2em;
+    margin-bottom: 2em;
+    }
+    
+    .link-items{
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    .link-items li{
+        margin-right: 1.3em;
+    }
+    .link-items a{
+        color: #fff;
+        text-decoration: none;
+        padding: 5px;
+        transition: .4s;
+        border-bottom: 2px solid #000;
+        font-size: 2em;
+    }
+    
+    .link-items a:hover{
+        border-color: #D60004;
+    }
